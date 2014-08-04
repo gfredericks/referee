@@ -4,7 +4,7 @@ A Clojure library for handling exceptions across thread boundaries.
 
 ## Obtainage
 
-`[com.gfredericks/referee "0.1.0"]`
+![version](https://clojars.org/com.gfredericks/referee/latest-version.svg)
 
 ## Usage
 
