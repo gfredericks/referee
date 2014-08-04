@@ -1,4 +1,4 @@
-(defproject com.gfredericks/referee "0.0.1-SNAPSHOT"
+(defproject com.gfredericks/referee "0.0.1"
   :description "A library for handling exceptions across thread
   boundaries."
   :url "https://github.com/gfredericks/referee"
