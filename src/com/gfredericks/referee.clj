@@ -18,19 +18,6 @@
   clojure.lang.IDeref
   (deref [_] (throw ex)))
 
-(comment
-  (defn catchingly*
-    [class func]
-    (try (->Success (func))
-         (catch Throwable ex
-           (if (instance? class ex)
-             (->Failure ex)
-             (throw ex)))))
-
-  (defmacro catchingly
-    [class-name & body]
-    `(catchingly* ~class-name (fn [] ~@body))))
-
 (defmacro catchingly
   [class-name & body]
   `(try (->Success (do ~@body))
