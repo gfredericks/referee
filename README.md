@@ -2,7 +2,7 @@
 
 A Clojure library for handling exceptions across thread boundaries.
 
-## Obtainage
+## Obtention
 
 ![version](http://clojars.org/com.gfredericks/referee/latest-version.svg)
 
